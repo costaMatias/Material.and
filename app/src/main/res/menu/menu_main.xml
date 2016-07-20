@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item android:id="@+id/action_settings"
+        android:title="Opciones"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/exit"
+        android:title="Salir"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/buscar"
+        android:title="Buscar"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/nuevo"
+        android:title="Nuevo"
+        android:icon="@drawable/ic_person_add_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu>
